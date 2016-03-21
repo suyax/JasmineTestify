@@ -1,40 +1,41 @@
 #Feed Reader Jasmine Testing#
 
-  __Single Page Application use Jasmine 2.1.2 to test features of the Feed Reader__
+  **Single Page Application use Jasmine 2.1.2 to test features of the Feed Reader**
 
 ## Get Started
-  * run ```git clone https://github.com/suyax/JasmineTestify.git``` in shell
-  * open index.html in browser
-  * toggle menu icon to open or close side menu
-  * click on menu items to select from different topics
-  * click on the link on the page to navigate to the website
+  *run ```git clone https://github.com/suyax/JasmineTestify.git``` in shell
+  *open index.html in browser
+  *toggle menu icon to open or close side menu
+  *click on menu items to select from different topics
+  *click on the link on the page to navigate to the website
 
 ## Test & Development
 
-  __Pull request are welcome @ https://github.com/suyax/JasmineTestify.git__
-    * main function logic are in js folder app.js file
-    * style please refer to css and fonts folder
-    * test suites are in jasmine spec folder
+  **Pull request are welcome @ https://github.com/suyax/JasmineTestify.git**
 
-  __Suites Include:__
+  *main function logic are in js folder app.js file
+  *style please refer to css and fonts folder
+  *test suites are in jasmine spec folder
 
-    1. RSS Feeds
-      * are defined
-      * each feed has a URL defined
-      * each feed has a name defined
+  **Suites Include:**
 
-    2. The menu
-      * menu element is hidden by default
-      * should toggle side menu display when menu icon is clicked
+  1. RSS Feeds
+    *are defined
+    *each feed has a URL defined
+    *each feed has a name defined
 
-    3. Initial Entries
-      * when the loadFeed function is called and completes, there is at least a single .entry element within the .feed container.
+  2. The menu
+    *menu element is hidden by default
+    *should toggle side menu display when menu icon is clicked
 
-    4. New Feed Selection
-      * when a new feed is loaded the content changes
+  3. Initial Entries
+    *when the loadFeed function is called and completes, there is at least a single .entry element within the .feed container.
 
-    5.Title Change
-      * when a new feed is loaded the title changes (added)
+  4. New Feed Selection
+    *when a new feed is loaded the content changes
+
+  5.Title Change
+    *when a new feed is loaded the title changes (added)
 
 ## License
   The MIT License (MIT)
