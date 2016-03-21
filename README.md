@@ -23,6 +23,7 @@
     *are defined
     *each feed has a URL defined
     *each feed has a name defined
+    *each feed has a date defined(added)
 
   2. The menu
     *menu element is hidden by default
@@ -33,9 +34,10 @@
 
   4. New Feed Selection
     *when a new feed is loaded the content changes
-
-  5.Title Change
     *when a new feed is loaded the title changes (added)
+
+  5. Content sorted by date
+    *feed sorted from latest(added)
 
 ## License
   The MIT License (MIT)
