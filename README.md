@@ -14,10 +14,10 @@ Suites Include:
   * should toggle side menu display when menu icon is clicked
 
 3. Initial Entries
-  * when the loadFeed function is called and completes, there i..*at least a single .entry element within the .feed container.
+  * when the loadFeed function is called and completes, there is at least a single .entry element within the .feed container.
 
 4. New Feed Selection
   * when a new feed is loaded the content changes
 
 5.Title Change
-  * when a new feed is loaded the title changes
+  * when a new feed is loaded the title changes (added)
