@@ -3,38 +3,38 @@
   **Single Page Application use Jasmine 2.1.2 to test features of the Feed Reader**
 
 ## Get Started
-  *run ```git clone https://github.com/suyax/JasmineTestify.git``` in shell
-  *open index.html in browser
-  *toggle menu icon to open or close side menu
-  *click on menu items to select from different topics
-  *click on the link on the page to navigate to the website
+  1. run ```git clone https://github.com/suyax/JasmineTestify.git``` in shell  
+  2. open index.html in browser  
+  3. toggle menu icon to open or close side menu  
+  4. click on menu items to select from different topics  
+  5. click on the link on the page to navigate to the website  
 
 ## Test & Development
 
-  **Pull request are welcome @ https://github.com/suyax/JasmineTestify.git**
+ **Pull request are welcome @ https://github.com/suyax/JasmineTestify.git**
+ 
+   1. main function logic are in js folder app.js file
+   2. style please refer to css and fonts folder
+   3. test suites are in jasmine spec folder
 
-  *main function logic are in js folder app.js file
-  *style please refer to css and fonts folder
-  *test suites are in jasmine spec folder
-
-  **Suites Include:**
-
+**Suites Include:**
+ 
   1. RSS Feeds
-    *are defined
-    *each feed has a URL defined
-    *each feed has a name defined
-    *each feed has a date defined(added)
+    * are defined
+    * each feed has a URL defined
+    * each feed has a name defined
+    * each feed has a date defined(added)
 
   2. The menu
-    *menu element is hidden by default
-    *should toggle side menu display when menu icon is clicked
+    * menu element is hidden by default
+    * should toggle side menu display when menu icon is clicked
 
   3. Initial Entries
-    *when the loadFeed function is called and completes, there is at least a single .entry element within the .feed container.
+    * when the loadFeed function is called and completes, there is at least a single .entry element within the .feed container.
 
   4. New Feed Selection
-    *when a new feed is loaded the content changes
-    *when a new feed is loaded the title changes (added)
+    * when a new feed is loaded the content changes
+    * when a new feed is loaded the title changes (added)
 
   5. Content sorted by date
     *feed sorted from latest(added)
